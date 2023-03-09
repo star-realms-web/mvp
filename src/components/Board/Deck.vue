@@ -1,21 +1,23 @@
 
 <template>
     <div>
-        <BoardDeck />
+        Deck component
     </div>
 </template>
 
 <script>
-import BoardDeck from '@/components/Board/Deck';
+
+// Code here will be called once.
 
 export default {
-    components: {
-        BoardDeck,
-    },
-};
+    setup() {
+        // Will be called on instance creation.
+    }
+}
 </script>
 
 <style scoped>
+
 @media (min-width: 1024px) {
 
 }
