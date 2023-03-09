@@ -1,21 +1,26 @@
 
 <template>
-    <div>
-        <BoardDeck />
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <Board />
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
-import BoardDeck from '@/components/Board/Deck';
+import Board from '@/components/Board';
 
 export default {
     components: {
-        BoardDeck,
+        Board,
     },
 };
 </script>
 
 <style scoped>
+
 @media (min-width: 1024px) {
 
 }
