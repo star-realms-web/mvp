@@ -1,6 +1,6 @@
 
 <template>
-    <div class="container">
+    <div class="container game-screen">
         <div class="row">
             <div class="col">
                 <Board />
@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style scoped>
+.game-screen {
+    max-width: 100%;
+}
 
 @media (min-width: 1024px) {
 

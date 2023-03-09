@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .PlayerZone {
     background-color: #86b85d;
-    min-height: 500px;
+    min-height: 50vh;
     border: 1px solid rgba(138, 135, 135, 0.82);
 }
 

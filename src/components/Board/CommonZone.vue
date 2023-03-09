@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .CommonZone {
     background-color: #b862d5;
-    min-height: 1000px;
+    min-height: 100vh;
     border: 1px solid rgba(138, 135, 135, 0.82);
 }
 
