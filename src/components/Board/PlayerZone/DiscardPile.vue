@@ -2,7 +2,7 @@
 <template>
     <div class="row">
         <div class="col">
-            Deck component
+            Сброс игрока
         </div>
     </div>
 </template>

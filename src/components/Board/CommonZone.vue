@@ -1,8 +1,8 @@
 
 <template>
-    <div class="row">
+    <div class="row CommonZone">
         <div class="col">
-            Deck component
+            Общая Зона
         </div>
     </div>
 </template>
@@ -19,6 +19,11 @@ export default {
 </script>
 
 <style scoped>
+.CommonZone {
+    background-color: #b862d5;
+    min-height: 1000px;
+    border: 1px solid rgba(138, 135, 135, 0.82);
+}
 
 @media (min-width: 1024px) {
 

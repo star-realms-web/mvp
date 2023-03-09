@@ -1,8 +1,28 @@
 
 <template>
     <div class="row">
-        <div class="col">
-            <BoardDeck />
+        <div class="col-8">
+            <div class="row">
+                <div class="col">
+                    <PlayerZone />
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <PlayerZone />
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-4">
+
+            <div class="row">
+                <div class="col">
+                    <CommonZone />
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -10,7 +30,9 @@
 <script>
 // Code here will be called once.
 
-import BoardDeck from '@/components/Board/Deck';
+
+import CommonZone from '@/components/Board/CommonZone';
+import PlayerZone from '@/components/Board/PlayerZone';
 
 export default {
     setup() {
@@ -18,7 +40,7 @@ export default {
     },
 
     components: {
-        BoardDeck,
+        CommonZone, PlayerZone
     },
 };
 </script>

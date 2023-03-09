@@ -2,7 +2,7 @@
 <template>
     <div class="row">
         <div class="col">
-            Deck component
+            Активная зона игрока
         </div>
     </div>
 </template>

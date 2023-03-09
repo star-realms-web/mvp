@@ -1,8 +1,8 @@
 
 <template>
-    <div class="row">
+    <div class="row PlayerZone">
         <div class="col">
-            Deck component
+            Зона Игрока
         </div>
     </div>
 </template>
@@ -14,11 +14,16 @@
 export default {
     setup() {
         // Will be called on instance creation.
-    }
-}
+    },
+};
 </script>
 
 <style scoped>
+.PlayerZone {
+    background-color: #86b85d;
+    min-height: 500px;
+    border: 1px solid rgba(138, 135, 135, 0.82);
+}
 
 @media (min-width: 1024px) {
 
