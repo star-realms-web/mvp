@@ -12,7 +12,7 @@ export default defineConfig(
             alias: {
                 '@': fileURLToPath(new URL('./src', import.meta.url)),
             },
-            extensions: ['.mjs', '.vue', '.js', '.mts', '.ts', '.jsx', '.tsx', '.json']
+            extensions: ['.mjs', '.js', '.mts', '.ts', '.jsx', '.tsx', '.json', /*new: */'.vue'],
         },
     },
 );
